@@ -27,6 +27,7 @@ const Logs = lazy(() => import('~/components/Logs'));
 const Proxies = lazy(() => import('~/components/proxies/Proxies'));
 const Rules = lazy(() => import('~/components/Rules'));
 
+
 const routes = [
   { path: '/', element: <Home /> },
   { path: '/connections', element: <Connections /> },
